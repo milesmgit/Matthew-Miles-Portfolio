@@ -16,6 +16,7 @@
     <None Include="img\blue-background.jpg" />
     <None Include="img\purple-background.jpg" />
     <None Include="css\main.css" />
+    <None Include="img\noobx-cube.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />

@@ -21,10 +21,21 @@
 
 
 
+// on mouse hover, change image of the huge-cube
 
-    // grabbing grid list so i can work with it to add user choice of x or o.
-    const gridArray = document.querySelectorAll('.grid');
-    const parentDiv = document.querySelectorAll('.parentDiv');
+
+let frontHuge = document.getElementById('front-huge');
+let hugeImg = document.getElementById('huge-img');
+
+
+function rollover(my_img) {
+
+    frontHuge.src = my_img.src;
+}
+
+rollover(this);
+
+    
 
 
 
