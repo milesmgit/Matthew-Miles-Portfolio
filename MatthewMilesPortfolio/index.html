@@ -1,6 +1,4 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,11 +20,11 @@
                 <div class="rotating-box">
                     <div class="single-rb">
                         <div class="front-side">
-                            <div class="grid" id="grid-front-side-1"><a href="https://github.com/milesmgit/noobx-cube"><img src="img/noobx-cube.jpg" onmouseover="rollover(this)" alt="Noobx Cube Project" width="100" height="100"></a></div>
+                            <div class="grid" id="grid-front-side-1"><a href="https://github.com/milesmgit/noobx-cube"><img src="img/noobx-cube.jpg" onmouseover="rollover(this)" onmouseout="rollout()" alt="Noobx Cube Project" width="100" height="100"></a></div>
                         </div>
 
                         <div class="back-side">
-                            <div class="grid" id="grid-back-side-1"><a href="https://github.com/milesmgit/tic-tac-toe-1-animated"><img src="img/blue-background.jpg" onmouseover="rollover(this)" alt="Noobx Cube Project" width="100" height="100"></a></div>
+                            <div class="grid" id="grid-back-side-1"><a href="https://github.com/milesmgit/tic-tac-toe-1-animated"><img src="img/tic-tac-toe.png" onmouseover="rollover(this)" onmouseout="rollout()" alt="Blue Background" width="100" height="100"></a></div>
                         </div>
                         <div class="left-side">
                             <div class="grid"></div>
@@ -237,17 +235,17 @@
             <div class="rotating-box-huge" id="huge-cube">
                 <div class="single-rb-huge">
                     <div class="front-side-huge">
-                        <div class="grid-huge" id="front-face"><a><img id="front-huge" width="400" height="400"/></a></div>
+                        <div class="grid-huge" id="front-face"><a id="louHref"><img src="img/code-louisville.png" id="front-huge" width="400" height="400" /></a></div>
                     </div>
 
                     <div class="back-side-huge">
-                        <div class="grid-huge"></div>
+                        <div class="grid-huge" id="back-face"><a id="linkedHref"><img src="img/linked-in.png" id="back-huge" width="400" height="400" /></a></div>
                     </div>
                     <div class="left-side-huge">
-                        <div class="grid-huge"></div>
+                        <div class="grid-huge" id="left-face"><a id="gitHref"><img src="img/github.png" id="left-huge" width="400" height="400" /></a></div>
                     </div>
                     <div class="right-side-huge">
-                        <div class="grid-huge"></div>
+                        <div class="grid-huge" id="right-face"><a id="techLouHref"><img src="img/tech-louisville.png" id="right-huge" width="400" height="400" /></a></div>
                     </div>
                     <div class="top-side-huge">
 
@@ -257,17 +255,16 @@
                     </div>
                 </div>
             </div>
-           </div>
-        
+        </div>
+
 
 
     </div>
 
 
-    
+
 
 
     <script src="script.js"></script>
 </body>
 </html>
-

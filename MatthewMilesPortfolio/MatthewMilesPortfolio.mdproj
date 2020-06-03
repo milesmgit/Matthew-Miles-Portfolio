@@ -17,6 +17,11 @@
     <None Include="img\purple-background.jpg" />
     <None Include="css\main.css" />
     <None Include="img\noobx-cube.jpg" />
+    <None Include="img\code-louisville.png" />
+    <None Include="img\tic-tac-toe.png" />
+    <None Include="img\linked-in.png" />
+    <None Include="img\github.png" />
+    <None Include="img\tech-louisville.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="img\" />

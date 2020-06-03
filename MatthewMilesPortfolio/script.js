@@ -16,7 +16,7 @@
 //    if (counter > backgroundArray.length - 1) {
 //        counter = 0;
 //    }
-//    body.style.backgroundImage = backgroundArray[counter];
+//    body.style.backgroundImage = backgroundArray[counter];Screen Shot 2020-06-02 at 11.58.47 PM
 //});
 
 
@@ -25,15 +25,38 @@
 
 
 let frontHuge = document.getElementById('front-huge');
+let backHuge = document.getElementById('back-huge');
+let leftHuge = document.getElementById('left-huge');
+let rightHuge = document.getElementById('right-huge');
+let louHref = document.getElementById('louHref');
+let linkedHref = document.getElementById('linkedHref');
+let gitHref = document.getElementById('gitHref');
+let techlouHref = document.getElementById('techLouHref');
+
 let hugeImg = document.getElementById('huge-img');
 
 
 function rollover(my_img) {
 
     frontHuge.src = my_img.src;
+    backHuge.src = my_img.src;
+    leftHuge.src = my_img.src;
+    rightHuge.src = my_img.src;
 }
 
-rollover(this);
+function rollout() {
+    frontHuge.src = 'img/code-louisville.png';
+    louHref.href = 'https://www.codelouisville.org';
+    backHuge.src = 'img/linked-in.png';
+    linkedHref.href = 'https://www.linkedin.com/in/matthew-miles-code-louisville';
+    leftHuge.src = 'img/github.png';
+    gitHref.href = 'https://www.github.com/milesmgit?tab=repositories';
+    rightHuge.src = 'img/tech-louisville.png';
+    techLouHref.href = 'https://www.techlouisville.org';
+}
+
+rollout();
+
 
     
 
