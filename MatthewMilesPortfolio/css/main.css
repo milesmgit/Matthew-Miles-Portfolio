@@ -34,17 +34,25 @@ header {
 *******************************************************************/
 
 body {
-    background: url('../img/teal-background.jpg') no-repeat;
-    background-size: cover;
+    height: 600px;
     margin: 0;
     margin-bottom: 100px;
     color: black;
+    background-color: black;
 }
 
 
 .wrapper {
     display: flex;
     padding-left: 60px;
+    height: 520px;
+    background: url('../img/teal-background.jpg') no-repeat;
+    background-size: cover;
+}
+
+footer {
+    height: 60px;
+    background-color: black;
 }
 
 
