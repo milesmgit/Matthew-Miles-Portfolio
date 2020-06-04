@@ -47,12 +47,16 @@ function rollover(my_img) {
 function rollout() {
     frontHuge.src = 'img/code-louisville.png';
     louHref.href = 'https://www.codelouisville.org';
+    louHref.target = "_blank";
     backHuge.src = 'img/linked-in.png';
     linkedHref.href = 'https://www.linkedin.com/in/matthew-miles-code-louisville';
+    linkedHref.target = "_blank";
     leftHuge.src = 'img/github.png';
     gitHref.href = 'https://www.github.com/milesmgit?tab=repositories';
+    gitHref.target = "_blank";
     rightHuge.src = 'img/tech-louisville.png';
     techLouHref.href = 'https://www.techlouisville.org';
+    techLouHref.target = "_blank";
 }
 
 rollout();
