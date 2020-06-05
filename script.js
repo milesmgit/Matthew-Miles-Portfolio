@@ -1,13 +1,6 @@
-﻿
-
-
-
-
-
-
-//// function to choose background image on click
+// function to choose background image on click
 //const backgroundArray = ['url(img/teal-background.jpg)', 'url(img/blue-background.jpg)', 'url(img/purple-background.jpg)']
-//// grab button to add one to counter so i can display different backgrounds.
+// grab button to add one to counter so i can display different backgrounds.
 //const changeBackground = document.querySelector('#changeBackground');
 //const body = document.querySelector('body');
 //let counter = 0;
@@ -29,9 +22,9 @@ let backHuge = document.getElementById('back-huge');
 let leftHuge = document.getElementById('left-huge');
 let rightHuge = document.getElementById('right-huge');
 let louHref = document.getElementById('louHref');
-let linkedHref = document.getElementById('linkedHref');
-let gitHref = document.getElementById('gitHref');
+let louHref2 = document.getElementById('louHref');
 let techlouHref = document.getElementById('techLouHref');
+let techlouHref2 = document.getElementById('techLouHref');
 
 let hugeImg = document.getElementById('huge-img');
 
@@ -48,25 +41,13 @@ function rollout() {
     frontHuge.src = 'img/code-louisville.png';
     louHref.href = 'https://www.codelouisville.org';
     louHref.target = "_blank";
-    backHuge.src = 'img/linked-in.png';
-    linkedHref.href = 'https://www.linkedin.com/in/matthew-miles-code-louisville';
-    linkedHref.target = "_blank";
-    leftHuge.src = 'img/github.png';
-    gitHref.href = 'https://www.github.com/milesmgit?tab=repositories';
-    gitHref.target = "_blank";
+    backHuge.src = 'img/code-louisville.png';
+    louHref2.href = 'https://www.codelouisville.org';
+    louHref2.target = "_blank";
     rightHuge.src = 'img/tech-louisville.png';
     techLouHref.href = 'https://www.techlouisville.org';
     techLouHref.target = "_blank";
+    leftHuge.src = 'img/tech-louisville.png';
+    techLouHref2.href = 'https://www.techlouisville.org';
+    techLouHref2.target = "_blank";
 }
-
-rollout();
-
-
-    
-
-
-
-
-
-
-

@@ -19,6 +19,9 @@ header {
 
 }
 
+nav.fixed-top {
+  border-bottom: black 2px solid;
+}
 
 
 /* *****************************************************************
@@ -28,58 +31,64 @@ header {
 *******************************************************************/
 
 body {
-    height: 600px;
+    height: 100vh;
     margin: 0;
     margin-bottom: 100px;
     color: black;
     background-color: black;
-  
-}
+    padding-top: 70px;
 
+}
 
 .wrapper {
     display: flex;
-    padding-left: 60px;
-    height: 520px;
+    height: 100vh;
     background: url('../img/teal-background.jpg') no-repeat;
     background-size: cover;
+    margin-top: 50px;
+}
+
+.horizontal-flex-div {
+  margin-top: 50px;
+}
+
+.resume {
+  text-decoration: underline;
+  padding: 60px;
+  text-align: center;
+  margin: 100px 50px;
+  background-color: white;
+  height: 80vh;
+  width: 100%;
+  border: 2px solid black;;
+  box-shadow: 5px 10px black;
+}
+
+#resume {
+  color: black;
+  font-size: 20px;
+  font-family: "Georgia", sans-serif;
+}
+span {
+  color: blue;
 }
 
 footer {
-    height: 60px;
+    height: 360px;
     background-color: black;
+
 }
 
-
-
-button {
-    height: 70px;
-    width: 100px;
-    background-color: rgba(0, 0, 0, .2);
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+div#instruction {
+  text-align: center;
+  padding: 5px;
 }
-
 
 .parentDiv {
     display: flex;
     justify-content: left;
     align-items: center;
 }
-
-.grid {
-    height: 50px;
-    width: 50px;
-    border: 1px solid black;
-    vertical-align: middle;
-    /* line height = to div height to center vertically */
-    line-height: 50px;
-}
-
-
-/* I got the cube animation from this website:   youtube.com/watch?v=lwo8VYTsujA */
-
-
 
 .project {
     width: 100px;
@@ -88,18 +97,8 @@ button {
     border: 1px solid black;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 /* Huge Cube */
+/* I got the cube animation from this website:   youtube.com/watch?v=lwo8VYTsujA */
 
 .rotating-box-huge {
     width: 400px;
@@ -109,7 +108,6 @@ button {
     perspective: 3600px;
     margin-bottom: 500px;
 }
-
 
 .single-rb-huge {
     width: 400px;
@@ -123,8 +121,6 @@ button {
         width: 400px;
         height: 400px;
     }
-
-
 
 .front-side-huge {
     transform: translateZ(200px);
@@ -142,20 +138,17 @@ button {
     border: 5px solid black;
 }
 
-
 .right-side-huge {
     transform: rotateY(90deg) translateX(200px);
     transform-origin: right;
     border: 5px solid black;
 }
 
-
 .top-side-huge {
     transform: rotateX(-90deg) translateY(-200px);
     transform-origin: top;
     border: 5px solid black;
 }
-
 
 .bottom-side-huge {
     transform: rotateX(90deg) translateY(200px);
