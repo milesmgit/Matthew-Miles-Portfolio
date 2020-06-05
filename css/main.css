@@ -207,11 +207,20 @@ div#instruction {
 }
 
 #wrapperId {
-  margin: 0 auto;
+  margin: 0 50px;
+  text-align: center;
 }
 
 #matt-bio {
   border-radius: 50%;
+}
+
+#bioH1 {
+
+}
+
+#bioP1 {
+
 }
 
 #resetButton {
