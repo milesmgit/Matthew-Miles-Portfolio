@@ -67,12 +67,12 @@ function displayBio() {
                                 programming school named Code Louisville.  He studied front end technologies such as JavaScript, CSS, and HTML.  He also studied back end technologies
                                 such as C#, ASP.NET, and SQL Database.  He completed three programming tracks and moved on to a software engineering immersive called Louisville
                                 Skills as taught by General Assembly and sponsored by a local software firm named Interapt.  He studied front end technologies like JavaScript, CSS, HTML, and REACT,
-                                and backend technologies such as NodeJS, MongoDB, and Express.  In addition he learned to work effectively in teams and improved his softskills considerably.
-                                He also learned about the version control software git, and became proficient in using it in combination with GitHub to store multiple versions of his Project work.
+                                and backend technologies such as NodeJS, MongoDB, and Express.  In addition he learned to work effectively in teams and improved his soft skills considerably.
+                                He also learned about the version control software git, and became proficient in using it in combination with GitHub to store multiple versions of his project work.
                                 Matthew has thus far completed 8 personal projects and has caught the programming bug as of late.  He hopes to one day find a position where he can work remotely at least
                                 part of the work week.</p>
 
-                                <p class="bioP1">Matthew was a graduate of Spalding University in Louisville, KY and graduated with a 3.4/4.0 G.P.A.  He earned a Bachelor's of Science in Business Adminitration.</p>
+                                <p class="bioP1">Matthew is a graduate of Spalding University in Louisville, KY and graduated with a 3.4/4.0 G.P.A.  He earned a Bachelor's of Science in Business Adminitration.</p>
 
                                 <p class="bioP1">Matthew currently works for Interapt as a software engineering apprentice, but due to the novel COVID-19 virus, most of the company was repurposed to help
                                 Humana transition the workforce to work from home.  Matthew has been promoted twice in three months and now works in escalation, a specilized position in the
@@ -80,8 +80,8 @@ function displayBio() {
                                 terms and decreased member/agent satisfaction due to massive outages affecting many people or critical applications/software.
 
                   </p>
-                  <button type="button" id='resetButton' onclick='resetAboutMe()' class="btn btn-primary btn-lg btn-block">Back</button>`
-                  
+                  <a href='about.html'><button type="button" id='resetButton' onclick='resetAboutMe()' class="btn btn-primary btn-lg btn-block">Back</button></a>`
+
 
 }
 
