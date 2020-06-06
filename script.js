@@ -53,16 +53,35 @@ function rollout() {
 }
 
 let bio = document.getElementById('about-main-content');
-let wrapper = document.createElement('div');
+let slide = document.createElement('div');
 
 function displayBio() {
   bio.innerHTML = '';
-  bio.appendChild(wrapper);
-  wrapper.id = "wrapperId";
-  wrapper.innerHTML = `<h1 id='bioH1'>Hello</h1>
-                  <p id='bioP1'>Matthew Miles is from Louisville, Ky U.S.A and currently lives in the downtown area.
+  bio.appendChild(slide);
+  slide.id = "slide";
+  slide.innerHTML = `<h1 id='bioH1'>Bio</h1>
+                  <p class='bioP1'>Matthew Miles is from Louisville, Ky U.S.A and currently lives in the downtown area. The freetime in his youth was spent playing sports; basketball,
+                                football, baseball, softball, soccer, and track being the most popular.  He also enjoyed bowling and playing chess. He played varsity basketball and soccer for his alma mater, Spalding University;
+                                however, after the start of the second season, he had an accident forcing him to give up playing competitive sports.  He made the best of his new
+                                limitations and began hitting the books harder.  Eventually he earned his CompTIA A+ certification, and went on to study programming at a local
+                                programming school named Code Louisville.  He studied front end technologies such as JavaScript, CSS, and HTML.  He also studied back end technologies
+                                such as C#, ASP.NET, and SQL Database.  He completed three programming tracks and moved on to a software engineering immersive called Louisville
+                                Skills as taught by General Assembly and sponsored by a local software firm named Interapt.  He studied front end technologies like JavaScript, CSS, HTML, and REACT,
+                                and backend technologies such as NodeJS, MongoDB, and Express.  In addition he learned to work effectively in teams and improved his softskills considerably.
+                                He also learned about the version control software git, and became proficient in using it in combination with GitHub to store multiple versions of his Project work.
+                                Matthew has thus far completed 8 personal projects and has caught the programming bug as of late.  He hopes to one day find a position where he can work remotely at least
+                                part of the work week.</p>
+
+                                <p class="bioP1">Matthew was a graduate of Spalding University in Louisville, KY and graduated with a 3.4/4.0 G.P.A.  He earned a Bachelor's of Science in Business Adminitration.</p>
+
+                                <p class="bioP1">Matthew currently works for Interapt as a software engineering apprentice, but due to the novel COVID-19 virus, most of the company was repurposed to help
+                                Humana transition the workforce to work from home.  Matthew has been promoted twice in three months and now works in escalation, a specilized position in the
+                                IT department, where he constantly looks for issues that need to be brought to Major Incident specialists' attention so that Humana can mitigate losses in monetary
+                                terms and decreased member/agent satisfaction due to massive outages affecting many people or critical applications/software.
+
                   </p>
-                  <button id='resetButton' onclick='resetAboutMe()'</button>`
+                  <button type="button" id='resetButton' onclick='resetAboutMe()' class="btn btn-primary btn-lg btn-block">Back</button>`
+                  
 
 }
 

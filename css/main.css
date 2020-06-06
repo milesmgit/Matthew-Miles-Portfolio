@@ -2,18 +2,11 @@
     box-sizing: border-box;
 }
 
-
-
 /* *****************************************************************
 ********************************************************************
 *****************       Header     *********************************
 ********************************************************************
 *******************************************************************/
-
-
-
-
-
 
 header {
 
@@ -27,7 +20,6 @@ nav.fixed-top {
   border-radius: 50%;
 }
 
-
 /* *****************************************************************
 ********************************************************************
 *****************       Body     *********************************
@@ -38,15 +30,17 @@ body {
     margin: 0;
     color: black;
     padding-top: 144px;
-    height: 100vh;
-    background-image: linear-gradient(white, grey);
 
 }
 
 
 .wrapper {
+  height: 150vh;
     display: flex;
-    background-size: cover;
+    background-color: red;
+    padding: 100px 200px;
+
+
 
 
 
@@ -144,18 +138,16 @@ div#instruction {
 /* About Page */
 
 .horizontal-flex-div {
-
   margin-left: 50px;
 }
 
-#side-bar {
-  width: 20%;
-  background-color: red;
-  border-right: 2px solid black;
-}
+
+
 
 #about-main-content {
   width: 100%;
+  margin-top: -100px;
+
 
 
 }
@@ -206,26 +198,54 @@ div#instruction {
   z-index: 1;
 }
 
-#wrapperId {
-  margin: 0 50px;
+#slide {
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
+  position: absolute;
+  left: -2800px;
+  width: 80%;
+  background-color: white;
+  -webkit-animation: slide 1.5s forwards;
+  -webkit-animation-delay: 1s;
+  animation: slide 1.5s forwards;
+  animation-delay: 1s;
+  font-weight: 500;
+  box-shadow: 2px 3px black;
 }
+
+
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
 
 #matt-bio {
   border-radius: 50%;
+
 }
 
 #bioH1 {
-
+  text-align: center;
+  margin: 50px 0;
 }
 
-#bioP1 {
-
+.bioP1 {
+  text-align: left;
+  padding: 0px 100px;
+  line-height: 1.8;
 }
 
 #resetButton {
-
+ padding-bottom: 16px;
   width: 80%;
-  height: 40px;
-  border-radius: 5%;
+  height: 60px;
+  box-shadow: 2px 5px black;
+  margin: 100px auto;
+  font-weight: 500;
 }
